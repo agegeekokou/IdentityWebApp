@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Fy7GkQEEoTemKOvdT36/g/QHUPtjuuVmqHVE96FlV3YdavAR1lOHkXs7wB7zCdHIgiysGEkD5a8Qy3Eyhmk6kg==",
+  "dgSpecHash": "eN96cxkAQezG4Ov20RfAnxTZ1p544E8/eH2nHl5JoetxA1g8hMld3uLnIRllY1kL86MTzp7KeCyrJvFWVwE2yQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\delal\\source\\repos\\IdentityWebAPP\\IdentityWebAPP\\IdentityWebApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\delal\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

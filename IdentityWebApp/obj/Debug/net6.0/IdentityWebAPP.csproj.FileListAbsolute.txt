@@ -22,3 +22,5 @@ C:\Users\delal\source\repos\IdentityWebAPP\IdentityWebAPP\obj\Debug\net6.0\refin
 C:\Users\delal\source\repos\IdentityWebAPP\IdentityWebAPP\obj\Debug\net6.0\IdentityWebAPP.pdb
 C:\Users\delal\source\repos\IdentityWebAPP\IdentityWebAPP\obj\Debug\net6.0\IdentityWebAPP.genruntimeconfig.cache
 C:\Users\delal\source\repos\IdentityWebAPP\IdentityWebAPP\obj\Debug\net6.0\ref\IdentityWebAPP.dll
+C:\Users\delal\source\repos\IdentityWebAPP\IdentityWebAPP\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\delal\source\repos\IdentityWebAPP\IdentityWebAPP\obj\Debug\net6.0\IdentityWebApp.csproj.CopyComplete
