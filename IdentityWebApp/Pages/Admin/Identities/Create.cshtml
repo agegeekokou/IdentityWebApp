@@ -1,0 +1,43 @@
+﻿@page
+@model IdentityWebApp.Pages.Admin.Identities.CreateModel
+@{
+    ViewData["Title"] = "Create Identity";
+}
+
+<h1>Create Identity</h1>
+
+<h4>Identity</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group">
+                <label asp-for="Identity.Name" class="control-label"></label>
+                <input asp-for="Identity.Name" class="form-control" />
+                <span asp-validation-for="Identity.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Identity.City" class="control-label"></label>
+                <input asp-for="Identity.City" class="form-control" />
+                <span asp-validation-for="Identity.City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Identity.Age" class="control-label"></label>
+                <input asp-for="Identity.Age" class="form-control" />
+                <span asp-validation-for="Identity.Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Identity.Image.FilePath" class="control-label"></label>
+                <input asp-for="Identity.Image.FilePath" class="form-control" />
+                <span asp-validation-for="Identity.Image.FilePath" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

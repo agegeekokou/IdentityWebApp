@@ -1,0 +1,38 @@
+﻿@page
+@model IdentityWebApp.Pages.Admin.Identities.IndexModel
+@{
+    ViewData["Title"] = "Identity List";
+}
+
+<h1>Identity List</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Age</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Identities)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.City</td>
+                <td>@item.Age</td>
+                <td>@item.Image.FilePath</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-page="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-page="Delete" asp-route-id="@item.Id">Delete</a> |
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

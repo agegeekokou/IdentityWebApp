@@ -15,6 +15,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\delal\source\repos\IdentityWebAPP\IdentityWebAPP
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/delal/source/repos/IdentityWebAPP/IdentityWebAPP/Pages/Admin/Identities/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSWRlbnRpdGllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delal/source/repos/IdentityWebAPP/IdentityWebAPP/Pages/Admin/Identities/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSWRlbnRpdGllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delal/source/repos/IdentityWebAPP/IdentityWebAPP/Pages/Admin/Identities/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSWRlbnRpdGllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delal/source/repos/IdentityWebAPP/IdentityWebAPP/Pages/Admin/Identities/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSWRlbnRpdGllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delal/source/repos/IdentityWebAPP/IdentityWebAPP/Pages/Admin/Identities/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSWRlbnRpdGllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/delal/source/repos/IdentityWebAPP/IdentityWebAPP/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
