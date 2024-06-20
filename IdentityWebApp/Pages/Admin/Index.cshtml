@@ -1,0 +1,26 @@
+﻿@page
+@model IdentityWebApp.Pages.Admin.IndexModel
+@{
+}
+
+<div class="login-container">
+    <h2>You need to authenticate</h2><br />
+    @if (Model.displayInvalidAccountMessage)
+    {
+        <div class="alert alert-danger" role="alert">
+             ERROR: Invalid Account !
+        </div>      
+    }
+   
+    <form method="post">
+        <div class="mb-3">
+            <label for="exampleInputUsername" class="form-label">Login</label>
+            <input type="text" class="form-control" name="username" id="exampleInputUsername">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" name="password" id="exampleInputPassword">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

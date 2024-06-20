@@ -92,3 +92,15 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
+/* Login page */
+
+.login-container {
+    max-width: 400px;
+    margin: auto;
+}
+
+.form-control {
+    width: 300px;
+}
+
