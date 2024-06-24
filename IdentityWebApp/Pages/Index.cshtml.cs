@@ -24,21 +24,32 @@ namespace IdentityWebAPP.Pages
             this.client = client;
         }
 
-        public async Task<IActionResult> OnGet()
+        public int CurrentPage { get; set; }
+        public int TotalPages { get; set; }
+        public async Task<IActionResult> OnGet(int currentPage = 1)
         {
             HttpClient client = api.Initial();
 
             List<Identity> identities = null;
-           
+
+            const int pageSize = 100;
+            int itemsPerPage = 9;
+            CurrentPage = currentPage;
+
             HttpResponseMessage response = await client.GetAsync("https://localhost:44373/api/Identities");
 
             if (response.IsSuccessStatusCode)
             {
                 var result = await response.Content.ReadAsStringAsync();
 
-                identities = JsonConvert.DeserializeObject<List<Identity>>(result);
-            }
+                var allIdentities = JsonConvert.DeserializeObject<List<Identity>>(result);
+                identities = allIdentities.Skip((CurrentPage - 1) * itemsPerPage).Take(itemsPerPage) .ToList();
 
+                //TotalPages = (int)Math.Ceiling(identities.Count() / (double)pageSize);
+                //TotalPages = (int)(allIdentities.Count() / itemsPerPage);
+                TotalPages = (int)Math.Ceiling(allIdentities.Count / (double)itemsPerPage);
+            }
+          
             ViewData["identities"] = identities;
             return Page();
         }
